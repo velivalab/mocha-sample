@@ -1,0 +1,17 @@
+{
+  "name": "mocha-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter xunit --reporter-option output=report/test-results.xml --reporter-option suiteName=\"Mocha Sample\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "request": "^2.88.2"
+  }
+}
