@@ -1,31 +1,8 @@
-<testsuite name="Mocha Sample" tests="8" failures="0" errors="3" skipped="0" timestamp="Mon, 12 Sep 2022 05:55:30 GMT" time="0.007">
+<testsuite name="Mocha Sample" tests="6" failures="0" errors="0" skipped="0" timestamp="Mon, 12 Sep 2022 13:10:56 GMT" time="0.003">
 <testcase classname="" name="should add to numbers from an es module" time="0.001"/>
 <testcase classname="" name="should add to numbers from an es module" time="0"/>
-<testcase classname="" name="fail from an es module" time="0.001"><failure>boom
-AssertionError [ERR_ASSERTION]: boom
-    at Context.&#x3C;anonymous&#x3E; (file:///Users/bhavani.velivala/git_prj/github/pers/mocha-sample/test/test3.mjs:5:12)
-    at processImmediate (internal/timers.js:464:21)</failure></testcase>
-<testcase classname="" name="does not match from an es module" time="0.001"><failure>The input was expected to not match the regular expression /fail/. Input:
-
-&#x27;I will fail&#x27;
-
-AssertionError [ERR_ASSERTION]: The input was expected to not match the regular expression /fail/. Input:
-
-&#x27;I will fail&#x27;
-
-    at Context.&#x3C;anonymous&#x3E; (file:///Users/bhavani.velivala/git_prj/github/pers/mocha-sample/test/test3.mjs:9:12)
-    at processImmediate (internal/timers.js:464:21)</failure></testcase>
+<testcase classname="" name="does not match from an es module" time="0"/>
 <testcase classname="Array #indexOf()" name="should return -1 when the value is not present" time="0"/>
-<testcase classname="Array #indexOf()" name="should return -1 when the value is not present" time="0"><failure>-1 == 0
-
-      + expected - actual
-
-      --1
-      +0
-      
-AssertionError [ERR_ASSERTION]: -1 == 0
-    at Context.&#x3C;anonymous&#x3E; (test/test1.js:6:14)
-    at processImmediate (internal/timers.js:464:21)</failure></testcase>
-<testcase classname="uniqueId" name="should generate a unique id every time it is called" time="0.001"/>
+<testcase classname="Array #indexOf()" name="should return -1 when the value is not present" time="0"/>
 <testcase classname="Validation" name="isValidNumber" time="0"/>
 </testsuite>
