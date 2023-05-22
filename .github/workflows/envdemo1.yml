@@ -1,0 +1,13 @@
+name: envdemo1
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy
+    environment: test
+    runs-on: ubuntu-latest
+    steps:    
+      - name: Deployment 
+        run: echo Started deployment.
