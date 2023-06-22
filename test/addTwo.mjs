@@ -1,4 +1,4 @@
-// app.mjs
+
 import { addTwo } from '../app/addTwo.mjs';
 import assert from 'assert';
 
